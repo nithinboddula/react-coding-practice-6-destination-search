@@ -1,0 +1,45 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #000000;
+}
+
+.items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #f1f5f9;
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.input-element {
+  border: 0px;
+  background-color: #f1f5f9;
+  border-radius: 5px;
+  padding-left: 10px;
+  color: #252627;
+  outline: none;
+}
+
+.logo {
+  height: 20px;
+  align-self: center;
+}
